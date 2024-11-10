@@ -1,1 +1,27 @@
-node_modules
+# Исключаем папку для сборки Next.js
+/.next
+
+# Исключаем зависимости Node.js
+/node_modules
+
+# Исключаем локальные среды разработки
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Исключаем папку с логами
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Исключаем временные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Исключаем файлы редакторов (например, VSCode)
+.vscode/
+.idea/
