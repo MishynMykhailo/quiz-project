@@ -1,4 +1,4 @@
-import s from "./Header.module.css";
+import s from "./Header.module.scss";
 function Header() {
   return (
     <div className={s.logoContainer}>

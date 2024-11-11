@@ -1,0 +1,21 @@
+.button {
+  padding: 10px 15px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: all 500ms ease;
+}
+.it,
+.arbitrage,
+.ecom {
+  font-family: inherit;
+  color: rgb(142, 142, 142);
+  box-shadow: inset 0px 0px 5px 1px rgb(0 0 0 / 18%);
+}
+.active {
+  background: rgb(255, 255, 255);
+  color: #474747;
+  box-shadow: inset 0px 0px 5px 1px rgb(0 0 0 / 18%);
+}

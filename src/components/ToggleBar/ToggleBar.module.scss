@@ -1,0 +1,18 @@
+.toggleBar {
+  background: #efefef;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: max-content;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 18%);
+}
+.it {
+  font-size: 20px;
+}
+.arbitrage {
+}
+.ecom {
+}
