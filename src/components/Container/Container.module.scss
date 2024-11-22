@@ -2,6 +2,8 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  background-color: var(--background);
+
   @media screen and (max-width: 479px) {
     max-width: 450px;
   }

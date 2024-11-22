@@ -1,20 +1,15 @@
 :root {
-  --man-dark-color: #6743f7;
-  --man-light-color: #d1c7fd;
-  --woman-dark-color: #ff5c00;
-  --woman-light-color: #ffceb2;
-  --toggle-background: #fff0dd;
-  --toggle-background-border: #ffceb2;
-  --background: #fff7ed;
-  --black: #454545;
-  --standart-margin: 20px;
-  --header-gray: #d2d1d1;
+  --background: #ffffff;
+  --main-color-text: #0f77f2;
 }
 
 * {
   box-sizing: border-box;
 }
-
+html,
+body {
+  margin: 0;
+}
 p,
 h1,
 h2,

@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </>
       {currentScreen == "home" && (
-        <div>
+        <div className={s.homeDiv}>
           <h2>{activeButton}</h2>
           <h1 className={s.mainTitle}>Создай свой уникальный Quiz</h1>
           <p className={s.subTitle}>

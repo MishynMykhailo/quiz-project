@@ -12,10 +12,12 @@
 .ecom {
   font-family: inherit;
   color: rgb(142, 142, 142);
-  box-shadow: inset 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  background: var(--background);
+  box-shadow: inset 0px 0px 5px 1px rgb(0 0 0 / 70%);
 }
 .active {
-  background: rgb(255, 255, 255);
-  color: #474747;
+  background: var(--background);
+  color: var(--main-color-text);
   box-shadow: inset 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  font-weight: 600;
 }
