@@ -5,6 +5,7 @@ import QuestionsBlock from "../../components/QuestionsBlock/QuestionsBlock";
 import react, { useState } from "react";
 import ToggleBar from "@/components/ToggleBar/ToggleBar";
 import data from "@/data/questions.json";
+
 export default function Home() {
   const [currentScreen, setCurrentScreen] = useState("home");
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -28,6 +29,7 @@ export default function Home() {
             информацию о своей целевой аудитории. Персонализированный подход для
             лучшего результата!
           </p>
+          <h2 className={s.price}>Выбери свою тему:</h2>
           <ToggleBar
             dataKey={dataKey}
             activeButton={activeButton}

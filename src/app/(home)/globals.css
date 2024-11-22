@@ -11,22 +11,6 @@
   --header-gray: #d2d1d1;
 }
 
-html,
-.first-block__body {
-  height: 100%;
-}
-
-.first-block__body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  background: var(--background);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 * {
   box-sizing: border-box;
 }
