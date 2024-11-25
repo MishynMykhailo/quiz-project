@@ -1,5 +1,9 @@
 .toggleBar {
-  background: var(--main-color-text);
+  background: linear-gradient(
+    to right,
+    var(--main-color-text),
+    var(--dark-main-color-text)
+  );
   display: flex;
   flex-direction: row;
   gap: 10px;
